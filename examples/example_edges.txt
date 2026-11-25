@@ -1,0 +1,25 @@
+# Example network: two dense groups joined by a single bridge edge.
+# Group A: nodes a1..a5 (clique), Group B: nodes b1..b5 (clique),
+# bridge: a3 -- b3, plus one pendant node hanging off a1.
+a1 a2
+a1 a3
+a1 a4
+a1 a5
+a2 a3
+a2 a4
+a2 a5
+a3 a4
+a3 a5
+a4 a5
+b1 b2
+b1 b3
+b1 b4
+b1 b5
+b2 b3
+b2 b4
+b2 b5
+b3 b4
+b3 b5
+b4 b5
+a3 b3
+a1 x1
